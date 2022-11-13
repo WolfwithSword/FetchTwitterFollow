@@ -12,7 +12,7 @@ Export a user's twitter follows or following to a CSV, including data on each us
 8) Fill in all the fields in auth.ini with the copied values
 
 
-#Running the program
+# Running the program
 
 1) Open terminal where the .exe is, and make sure the other files are present (auth.ini, USER_FIELDS)
 2) CLI Options
