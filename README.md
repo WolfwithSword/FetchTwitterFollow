@@ -4,12 +4,13 @@ Export a user's twitter follows or following to a CSV, including data on each us
 # Setup Steps
 1) Create an application under development on twitter https://developer.twitter.com/en/portal/projects-and-apps
 2) Give it a name and fill in some fluff on the purpose such as "testing or exploring the api"
-3) Open auth.ini to copy some stuff in
-4) Copy the api key, api key secret and bearer token
-5) Click in bottom right "App settings"
-6) In the Keys and Tokens page on the app settings, click Generate under "Access Token and Secret"
-7) Copy the access token and access token secret
-8) Fill in all the fields in auth.ini with the copied values
+3) Note: As of Nov 15th 2022, projects now require elevated API access. [Check here](https://developer.twitter.com/en/portal/products/elevated) to sign your dev app up for it. It seems to be instantly granted currently.
+4) Open auth.ini to copy some stuff in
+5) Copy the api key, api key secret and bearer token
+6) Click in bottom right "App settings"
+7) In the Keys and Tokens page on the app settings, click Generate under "Access Token and Secret"
+8) Copy the access token and access token secret
+9) Fill in all the fields in auth.ini with the copied values
 
 
 # Running the program
